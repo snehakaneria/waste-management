@@ -1,0 +1,146 @@
+body{
+
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+
+}
+
+header{
+
+background:#2e8b57;
+color:white;
+text-align:center;
+padding:20px;
+
+}
+
+nav a{
+
+color:white;
+margin:10px;
+text-decoration:none;
+font-size:18px;
+
+}
+
+nav a:hover{
+
+text-decoration:underline;
+
+}
+
+/* HERO */
+
+.hero{
+
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+
+background-size:cover;
+color:white;
+text-align:center;
+padding:120px 20px;
+
+}
+
+.hero h2{
+
+font-size:40px;
+
+}
+
+.hero button{
+
+padding:10px 20px;
+font-size:18px;
+background:#2e8b57;
+border:none;
+color:white;
+cursor:pointer;
+
+}
+
+.section{
+
+background:white;
+margin:20px;
+padding:60px;
+border-radius:10px;
+
+}
+
+/* STATS */
+
+.stats{
+
+display:flex;
+justify-content:space-around;
+
+}
+
+.stat{
+
+background:#e8f5e9;
+padding:20px;
+border-radius:10px;
+text-align:center;
+
+}
+
+/* CARDS */
+
+.cards{
+
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+
+}
+
+.card{
+
+background:#e8f5e9;
+padding:20px;
+width:200px;
+border-radius:10px;
+
+}
+
+/* FORM */
+
+form{
+
+display:flex;
+flex-direction:column;
+width:300px;
+
+}
+
+input,textarea{
+
+margin:10px 0;
+padding:10px;
+
+}
+
+button{
+
+background:#2e8b57;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
+
+}
+
+/* FOOTER */
+
+footer{
+
+background:#333;
+color:white;
+text-align:center;
+padding:20px;
+
+}
